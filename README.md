@@ -48,6 +48,7 @@ Further analysis of this dataset could be performed to help find indicators of h
 
 Possible features to explore further are:
 - Time indicators: Year, Month, Day, Hour
-- Weather indicators
+- Weather indicators.
+
 
   
