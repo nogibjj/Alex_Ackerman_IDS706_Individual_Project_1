@@ -2,7 +2,7 @@
 
 # IDS-706-Data-Engineering
 
-## Project #1: Continuous Integration using Gitlab Actions of Python Data Science Project
+## Project #1: Statistical Analysis using Pandas and Jupyter Notebooks
 
 ### Purpose of Project
 The purpose of this project is to create a Python script that utilizes Pandas to generate descriptive statistics.
