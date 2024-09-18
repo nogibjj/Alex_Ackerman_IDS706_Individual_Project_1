@@ -31,7 +31,7 @@ def split_day_night(df):
 
 
 def hist_day_night(df_day, df_night):
-    fig = plt.figure(figsize=(11, 4))
+    plt.figure(figsize=(11, 4))
 
     plt.subplot(1, 2, 1)
     plt.hist(df_day["traffic_volume"])
@@ -49,4 +49,4 @@ def hist_day_night(df_day, df_night):
     plt.xlabel("Traffic Volume")
     plt.ylabel("Frequency")
 
-    return fig
+    # return fig

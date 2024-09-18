@@ -34,9 +34,9 @@ class test_functions(unittest.TestCase):
         stat_summary = stats_overview(test_df, "C")
 
         # Check if the description contains expected values
-        assert stat_summary.loc["mean"][0] == 6
-        assert stat_summary.loc["count"][0] == 3
-        assert stat_summary.loc["median"][0] == 6
+        assert stat_summary.loc["mean"].values[0] == 6
+        assert stat_summary.loc["count"].values[0] == 3
+        assert stat_summary.loc["median"].values[0] == 6
 
     def test_split_day_night(self):
         csv_data = """traffic_volume,date_time

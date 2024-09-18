@@ -3,7 +3,7 @@ install:
 		pip install -r requirements.txt
 
 test:
-	python -m pytest -vv --cov=main --cov=mylib test_*.py
+	python -m pytest -vv --nbval -cov=mylib -cov=main test_*.py *.ipynb
 
 format:	
 	black *.py 
@@ -24,12 +24,12 @@ deploy:
 
 all: install lint test format deploy
 
-generate_and_push:
-	python main.py
-	git config --local user.email "action@github.com"; \
-	git config --local user.name "GitHub Action"; \
-	git add .; \
-	git commit -m "Add generated plot and report"; \
-	git push
+# generate_and_push:
+# 	python main.py
+# 	git config --local user.email "action@github.com"; \
+# 	git config --local user.name "GitHub Action"; \
+# 	git add .; \
+# 	git commit -m "Add generated plot and report"; \
+# 	git push
 	
 

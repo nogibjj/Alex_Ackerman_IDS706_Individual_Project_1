@@ -3,6 +3,7 @@ Main
 """
 
 from mylib.lib import read_csv_file, stats_overview, split_day_night, hist_day_night
+import matplotlib.pyplot as plt
 
 # import pandas as pd
 # import matplotlib.pyplot as plt
@@ -25,9 +26,9 @@ def main(csv_file):
     print("Night Traffic Volume Stats\n", night_traffic_volume, "\n")
 
     # Histogram of Traffic Volume: Day vs Night
-    hist_fig = hist_day_night(day_df, night_df)
-    hist_fig.savefig("Figure/Traffic.png")
+    hist_day_night(day_df, night_df)
+    plt.savefig("Figure/Traffic.png")
 
 
-# if __name__ == "__main__":
-# main("Metro_Interstate_Traffic_Volume.csv.gz")
+if __name__ == "__main__":
+    main("Metro_Interstate_Traffic_Volume.csv.gz")
