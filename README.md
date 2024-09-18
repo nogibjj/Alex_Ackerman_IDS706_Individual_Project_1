@@ -10,6 +10,8 @@
 
 ## Project #1: Continuous Integration using Gitlab Actions of Python Data Science Project
 
+### File Structure
+
 ### Purpose of Project
 The purpose of this project is to create a Python script that utilizes Pandas to generate descriptive statistics.
 
