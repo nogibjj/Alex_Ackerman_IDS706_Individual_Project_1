@@ -21,5 +21,15 @@ refactor: format lint
 
 deploy:
 	#deploy goes here
-		
+
 all: install lint test format deploy
+
+generate_and_push:
+	python main.py
+	git config --local user.email "action@github.com"; \
+	git config --local user.name "GitHub Action"; \
+	git add .; \
+	git commit -m "Add generated plot and report"; \
+	git push
+	
+

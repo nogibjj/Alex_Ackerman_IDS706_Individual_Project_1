@@ -1,10 +1,3 @@
-"""
-Test goes here
+from main import main
 
-"""
-
-from mylib.calculator import add
-
-
-def test_add():
-    assert add(1, 2) == 3
+main("Metro_Interstate_Traffic_Volume.csv.gz")
