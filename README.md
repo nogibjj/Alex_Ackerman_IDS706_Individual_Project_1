@@ -4,6 +4,10 @@
 
 ## Project #1: Statistical Analysis using Pandas and Jupyter Notebooks
 
+### YouTube Link
+
+[Demo - Click Here](https://youtu.be/ztUyUJDyPsc)
+
 ### Purpose of Project
 The purpose of this project is to create a Python script that utilizes Pandas to generate descriptive statistics.
 
