@@ -1,3 +1,11 @@
+[![Format](https://github.com/nogibjj/Alex_Ackerman_IDS706_Individual_Project_1/actions/workflows/format.yml/badge.svg)](https://github.com/nogibjj/Alex_Ackerman_IDS706_Individual_Project_1/actions/workflows/format.yml)
+
+[![Install](https://github.com/nogibjj/Alex_Ackerman_IDS706_Individual_Project_1/actions/workflows/install.yml/badge.svg)](https://github.com/nogibjj/Alex_Ackerman_IDS706_Individual_Project_1/actions/workflows/install.yml)
+
+[![Lint](https://github.com/nogibjj/Alex_Ackerman_IDS706_Individual_Project_1/actions/workflows/lint.yml/badge.svg)](https://github.com/nogibjj/Alex_Ackerman_IDS706_Individual_Project_1/actions/workflows/lint.yml)
+
+[![Test](https://github.com/nogibjj/Alex_Ackerman_IDS706_Individual_Project_1/actions/workflows/test.yml/badge.svg)](https://github.com/nogibjj/Alex_Ackerman_IDS706_Individual_Project_1/actions/workflows/test.yml)
+
 # IDS-706-Data-Engineering
 
 ## Project #1: Continuous Integration using Gitlab Actions of Python Data Science Project
