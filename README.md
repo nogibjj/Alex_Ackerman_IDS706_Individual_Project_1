@@ -1,6 +1,6 @@
 # IDS-706-Data-Engineering
 
-## Mini-project #2: Pandas Descriptive Statistics Script
+## Project #1: Continuous Integration using Gitlab Actions of Python Data Science Project
 
 ### Purpose of Project
 The purpose of this project is to create a Python script that utilizes Pandas to generate descriptive statistics.
@@ -11,7 +11,7 @@ The data used is provided by John Hogue and can be found on the [UCI Machine Lea
 The dataset contains the hourly traffic volume for MN DoT ATR station 301 located between Minneapolis and St Paul, MN. The dataset contains features pertaining to holidays and weather in addition to the traffic volume. 
 
 ### Functions
-Main.py contains four functions:
+lib.py contains four functions:
 1. read_csv_file -- Takes in a .csv file name (as a string) and use Pandas to read the file into a dataframe
 
 2. stats_overview -- Takes a dataframe and column of interest and produces a dataframe with the following information: count, mean, standard deviation (std), minimum value (min), maximum value(max), lower percentile (25), 50th percentile (50), upper percentile (75), and median. NOTE: the median and 50th percentile are the same.
@@ -38,7 +38,7 @@ Traffic Volume Summary Statistics (Day vs Night):
 
 ### Data Visualization
 
-![alt text](Figure/Traffic.png)
+![alt text](Figure/main_figure.png)
 
 ## Conclusion
 

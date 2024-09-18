@@ -5,11 +5,8 @@ Main
 from mylib.lib import read_csv_file, stats_overview, split_day_night, hist_day_night
 import matplotlib.pyplot as plt
 
-# import pandas as pd
-# import matplotlib.pyplot as plt
 
-
-def main(csv_file):
+def main(csv_file, fig_name="main_figure"):
     # Read file
     df = read_csv_file(csv_file)
 
@@ -27,7 +24,7 @@ def main(csv_file):
 
     # Histogram of Traffic Volume: Day vs Night
     hist_day_night(day_df, night_df)
-    plt.savefig("Figure/Traffic.png")
+    plt.savefig(f"Figure/{fig_name}.png")
 
 
 if __name__ == "__main__":
